@@ -3,7 +3,7 @@ Feature: Ghost
 @user8 @web
 Scenario: E0008 - Editar un tag con titulo y descripción
   Given I navigate to page "http://localhost:2368/ghost/#/signin"
-  When I enter email "d.andrades@uniandes.edu.co" password "ArpolisVI204*"
+  When I enter email "<EMAIL>" password "<PASSWORD>"
   And I wait for 1 seconds
   Then I clic to Sign in
   Then Página principal del administrador
